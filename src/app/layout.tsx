@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     template: "%s | TSRC Health Collective",
   },
   description:
-    "Regulated healthcare organization with service platforms, practice frameworks, and governance.",
+    "Governance and standards for regulated youth residential care in British Columbia.",
 };
 
 export default function RootLayout({

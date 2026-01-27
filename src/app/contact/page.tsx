@@ -1,6 +1,6 @@
 import Container from "@/components/layout/Container";
 import Section from "@/components/layout/Section";
-import Button from "@/components/ui/Button";
+import ContactForm from "@/components/contact/ContactForm";
 import SectionDots from "@/components/ui/SectionDots";
 
 export default function ContactPage() {
@@ -17,116 +17,45 @@ export default function ContactPage() {
               General and institutional inquiries
             </h1>
             <p className="max-w-2xl text-lg text-muted/90 sm:text-xl hero-fade-late">
-            We welcome questions and feedback. 
-            This form may be used for general, government, partnership, or career inquiries.
-             Please do not include sensitive or protected health information.
+              TSRC Health Collective welcomes questions and feedback. This form
+              may be used for general, government, partnership, or career
+              inquiries. Please do not include sensitive or protected health
+              information.
             </p>
           </div>
         </Container>
       </section>
 
-      <Section className="bg-olive">
+      <Section className="!bg-olive">
         <div className="space-y-12">
           <div className="grid gap-6 lg:grid-cols-3">
-            <div className="rounded-2xl border border-muted/15 bg-white p-6 shadow-sm">
-              <h3>Inquiry paths</h3>
-              <ul className="mt-3 space-y-2 text-sm text-muted">
+            <div className="rounded-2xl border border-white/25 bg-white/12 p-6 shadow-[0_10px_28px_rgba(0,0,0,0.25)] backdrop-blur-lg sm:p-7">
+              <h3 className="!text-white">Inquiry paths</h3>
+              <ul className="mt-3 space-y-2 text-sm text-white/80">
                 <li>Government and institutional coordination.</li>
                 <li>Partnership and collaboration inquiries.</li>
                 <li>Careers and workforce inquiries.</li>
               </ul>
             </div>
-            <div className="rounded-2xl border border-muted/15 bg-white p-6 shadow-sm">
-              <h3>Important notice</h3>
-              <p className="mt-3 text-sm text-muted">
+            <div className="rounded-2xl border border-white/25 bg-white/12 p-6 shadow-[0_10px_28px_rgba(0,0,0,0.25)] backdrop-blur-lg sm:p-7">
+              <h3 className="!text-white">Important notice</h3>
+              <p className="mt-3 text-sm !text-white/80">
                 Do not submit protected health information or sensitive data
                 through this form.
               </p>
             </div>
-            <div className="rounded-2xl border border-muted/15 bg-white p-6 shadow-sm">
-              <h3>Regional scope</h3>
-              <p className="mt-3 text-sm text-muted">
-                Regional focus across British Columbia and Canada. No site
-                addresses are published.
+            <div className="rounded-2xl border border-white/25 bg-white/12 p-6 shadow-[0_10px_28px_rgba(0,0,0,0.25)] backdrop-blur-lg sm:p-7">
+              <h3 className="!text-white">Regional scope</h3>
+              <p className="mt-3 text-sm !text-white/80">
+                Regional focus across British Columbia. No site addresses are
+                published.
               </p>
             </div>
           </div>
 
           <div className="mx-auto w-full max-w-4xl">
-            <div className="rounded-2xl border border-muted/15 bg-white p-6 shadow-sm sm:p-8">
-              <form className="space-y-4">
-                <div className="grid gap-4 md:grid-cols-2">
-                  <div>
-                    <label className="text-sm font-semibold text-olive" htmlFor="name">
-                      Full name
-                    </label>
-                    <input
-                      className="mt-2 w-full rounded-xl border border-muted/20 bg-white px-4 py-3 text-[1.05rem] text-olive shadow-sm"
-                      id="name"
-                      name="name"
-                      type="text"
-                      autoComplete="name"
-                    />
-                  </div>
-                  <div>
-                    <label
-                      className="text-sm font-semibold text-olive"
-                      htmlFor="organization"
-                    >
-                      Organization
-                    </label>
-                    <input
-                      className="mt-2 w-full rounded-xl border border-muted/20 bg-white px-4 py-3 text-[1.05rem] text-olive shadow-sm"
-                      id="organization"
-                      name="organization"
-                      type="text"
-                    />
-                  </div>
-                </div>
-                <div className="grid gap-4 md:grid-cols-2">
-                  <div>
-                    <label className="text-sm font-semibold text-olive" htmlFor="email">
-                      Email
-                    </label>
-                    <input
-                      className="mt-2 w-full rounded-xl border border-muted/20 bg-white px-4 py-3 text-[1.05rem] text-olive shadow-sm"
-                      id="email"
-                      name="email"
-                      type="email"
-                      autoComplete="email"
-                    />
-                  </div>
-                  <div>
-                    <label className="text-sm font-semibold text-olive" htmlFor="topic">
-                      Topic
-                    </label>
-                    <select
-                      className="mt-2 w-full rounded-xl border border-muted/20 bg-white px-4 py-3 text-[1.05rem] text-olive shadow-sm"
-                      id="topic"
-                      name="topic"
-                    >
-                      <option>General inquiry</option>
-                      <option>Government and institutional</option>
-                      <option>Partnerships</option>
-                      <option>Careers</option>
-                    </select>
-                  </div>
-                </div>
-                <div>
-                  <label className="text-sm font-semibold text-olive" htmlFor="message">
-                    Message
-                  </label>
-                  <textarea
-                    className="mt-2 w-full rounded-xl border border-muted/20 bg-white px-4 py-3 text-[1.05rem] text-olive shadow-sm"
-                    id="message"
-                    name="message"
-                    rows={4}
-                  />
-                </div>
-                <Button type="submit" variant="primary" size="lg">
-                  Submit inquiry
-                </Button>
-              </form>
+            <div className="rounded-2xl border border-white/30 bg-white/82 p-6 shadow-[0_8px_20px_rgba(0,0,0,0.12)] backdrop-blur-md sm:p-8">
+              <ContactForm />
             </div>
           </div>
         </div>

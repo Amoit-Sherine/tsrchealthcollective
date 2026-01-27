@@ -13,11 +13,12 @@ export default function ServicesPage() {
             </p>
             <SectionDots className="justify-center hero-fade-delayed" />
             <h1 className="text-balance hero-fade-late">
-              Service Platform and Practice Framework
+              Residential &amp; Community Care Platform
             </h1>
             <p className="max-w-2xl text-lg text-muted/90 sm:text-xl hero-fade-late">
-              Service categories and practice standards for regulated care in
-              British Columbia and Canada.
+              A regulated care platform in development, with current focus on
+              youth residential and community-based services in British
+              Columbia, subject to provincial licensing and oversight.
             </p>
           </div>
         </Container>
@@ -29,10 +30,10 @@ export default function ServicesPage() {
             <p className="text-xs uppercase tracking-[0.3em] text-muted">
               Service Platform
             </p>
-            <h2>Service categories</h2>
+            <h2>Service focus</h2>
             <p className="max-w-3xl">
-            TSRC’s service platform is organized into three regulated service categories, 
-            each operating within defined service standards and oversight requirements.
+              The current focus is youth residential and community-based care
+              in British Columbia.
             </p>
           </div>
 
@@ -40,90 +41,30 @@ export default function ServicesPage() {
             <div className="border-t border-sage/30 pt-8">
               <div className="space-y-6 lg:grid lg:grid-cols-[1.15fr_0.85fr] lg:items-start lg:gap-10 lg:space-y-0">
                 <div className="space-y-3">
-                  <h3>Residential &amp; community services</h3>
+                  <h3>Youth residential &amp; community services</h3>
                   <p>
-                    Regulated residential and community programs that follow
-                    provincial standards.
+                    Program design includes youth residential care,
+                    community-based care, and supportive living models aligned
+                    with provincial standards.
                   </p>
                   <ul className="space-y-2 text-sm text-muted">
-                    <li>Youth residential services.</li>
+                    <li>Youth residential care.</li>
                     <li>Community-based care programs.</li>
                     <li>Supportive living models.</li>
                   </ul>
                 </div>
                 <details className="rounded-2xl border border-sand/50 bg-white/80 px-5 py-4 shadow-sm">
                   <summary className="details-summary">
-                    How services are delivered
+                    Program foundations
                     <span aria-hidden="true" className="text-muted">
                       +
                     </span>
                   </summary>
                   <div className="details-panel">
                     <ul className="space-y-2">
-                      <li>Regulatory alignment and licensing requirements.</li>
+                      <li>Provincial standards and oversight alignment.</li>
                       <li>Rights-based planning and trauma-informed supports.</li>
                       <li>Community integration and continuity of care.</li>
-                    </ul>
-                  </div>
-                </details>
-              </div>
-            </div>
-
-            <div className="border-t border-sage/30 pt-8">
-              <div className="space-y-6 lg:grid lg:grid-cols-[1.15fr_0.85fr] lg:items-start lg:gap-10 lg:space-y-0">
-                <div className="space-y-3">
-                  <h3>Specialized &amp; clinical services</h3>
-                  <p>
-                    Clinical support services that follow regulated practice
-                    standards.
-                  </p>
-                  <ul className="space-y-2 text-sm text-muted">
-                    <li>Nursing-led services.</li>
-                    <li>Mobile and community clinical supports.</li>
-                    <li>Health coordination services.</li>
-                  </ul>
-                </div>
-                <details className="rounded-2xl border border-sand/50 bg-white/80 px-5 py-4 shadow-sm">
-                  <summary className="details-summary">
-                    How services are delivered
-                    <span aria-hidden="true" className="text-muted">
-                      +
-                    </span>
-                  </summary>
-                  <div className="details-panel">
-                    <ul className="space-y-2">
-                      <li>Clinical governance and practice standards.</li>
-                      <li>Integrated documentation and coordination protocols.</li>
-                      <li>Quality monitoring and evidence stewardship.</li>
-                    </ul>
-                  </div>
-                </details>
-              </div>
-            </div>
-
-            <div className="border-t border-sage/30 pt-8">
-              <div className="space-y-6 lg:grid lg:grid-cols-[1.15fr_0.85fr] lg:items-start lg:gap-10 lg:space-y-0">
-                <div className="space-y-3">
-                  <h3>Workforce &amp; support services</h3>
-                  <p>Workforce platforms that support regulated service delivery.</p>
-                  <ul className="space-y-2 text-sm text-muted">
-                    <li>Care staffing services.</li>
-                    <li>Workforce development.</li>
-                    <li>Training and credential alignment.</li>
-                  </ul>
-                </div>
-                <details className="rounded-2xl border border-sand/50 bg-white/80 px-5 py-4 shadow-sm">
-                  <summary className="details-summary">
-                    How services are delivered
-                    <span aria-hidden="true" className="text-muted">
-                      +
-                    </span>
-                  </summary>
-                  <div className="details-panel">
-                    <ul className="space-y-2">
-                      <li>Competency-based staffing models.</li>
-                      <li>Continuous training and credential pathways.</li>
-                      <li>Oversight for workforce readiness.</li>
                     </ul>
                   </div>
                 </details>
@@ -142,8 +83,8 @@ export default function ServicesPage() {
             </p>
             <h2>Practice principles</h2>
             <p className="max-w-3xl">
-            The practice framework establishes shared standards for regulated care delivery,
-             cultural safety, and ethical practice across all services.
+              The practice framework establishes shared standards for youth
+              residential care, cultural safety, and ethical practice.
             </p>
           </div>
 
@@ -152,12 +93,12 @@ export default function ServicesPage() {
               <div className="border-l-2 border-sand/60 pl-5">
                 <h3>Trauma-informed practice</h3>
                 <p className="mt-3">
-                  Care environments focus on safety, stability, and informed
+                  Care environments prioritize safety, stability, and informed
                   support.
                 </p>
               </div>
               <div className="border-l-2 border-sand/60 pl-5">
-                <h3>Rights-based service delivery</h3>
+                <h3>Rights-based practice</h3>
                 <p className="mt-3">
                   Programs uphold dignity, autonomy, and informed participation.
                 </p>
@@ -165,8 +106,8 @@ export default function ServicesPage() {
               <div className="border-l-2 border-sand/60 pl-5">
                 <h3>Cultural safety &amp; inclusion</h3>
                 <p className="mt-3">
-                  Services support respect, inclusion, and community-informed
-                  care.
+                  The framework supports respect, inclusion, and
+                  community-informed care.
                 </p>
               </div>
             </div>
@@ -174,13 +115,14 @@ export default function ServicesPage() {
               <div className="border-l-2 border-sand/60 pl-5">
                 <h3>Least-restrictive supports</h3>
                 <p className="mt-3">
-                  Care planning uses appropriate, least-restrictive approaches.
+                  Care planning emphasizes appropriate, least-restrictive
+                  approaches.
                 </p>
               </div>
               <div className="border-l-2 border-sand/60 pl-5">
                 <h3>Ethical standards</h3>
                 <p className="mt-3">
-                  Professional integrity and accountability guide all services.
+                  Professional integrity and accountability guide practice.
                 </p>
               </div>
             </div>

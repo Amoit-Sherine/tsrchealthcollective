@@ -16,8 +16,8 @@ export default function GovernancePage() {
               Regulatory alignment and governance
             </h1>
             <p className="max-w-2xl text-lg text-muted/90 sm:text-xl hero-fade-late">
-              Oversight structures align policy, licensing, and quality
-              assurance to support regulated care delivery.
+              Oversight structures align policy and quality assurance in
+              preparation for regulated youth residential care.
             </p>
           </div>
         </Container>
@@ -31,8 +31,8 @@ export default function GovernancePage() {
             </p>
             <h2>Institutional oversight and compliance</h2>
             <p className="max-w-3xl text-white/85">
-            Governance structures align policy, oversight, 
-            and quality assurance across regulated service platforms.
+              TSRC Health Collective’s governance structures align policy,
+              oversight, and quality assurance for youth residential care.
             </p>
           </div>
 
@@ -41,14 +41,15 @@ export default function GovernancePage() {
               <div className="border-t border-white/15 pt-4">
                 <h3>Regulatory frameworks</h3>
                 <p className="mt-2 text-white/80">
-                  Provincial and federal requirements mapped to program
-                  controls.
+                  Provincial and federal requirements are being mapped to
+                  program controls.
                 </p>
               </div>
               <div className="border-t border-white/15 pt-4">
-                <h3>Licensing and oversight</h3>
+                <h3>Regulatory oversight</h3>
                 <p className="mt-2 text-white/80">
-                  Licensing alignment and oversight across programs.
+                  Licensing alignment and oversight planning for youth
+                  residential care.
                 </p>
               </div>
             </div>
@@ -57,14 +58,14 @@ export default function GovernancePage() {
                 <h3>Governance model</h3>
                 <p className="mt-2 text-white/80">
                   Decision rights, accountability structures, and escalation
-                  pathways.
+                  pathways in development.
                 </p>
               </div>
               <div className="border-t border-white/15 pt-4">
                 <h3>Quality assurance</h3>
                 <p className="mt-2 text-white/80">
-                  Continuous monitoring, compliance review, and evidence
-                  stewardship.
+                  Quality assurance planning for monitoring, compliance review,
+                  and evidence stewardship.
                 </p>
               </div>
             </div>

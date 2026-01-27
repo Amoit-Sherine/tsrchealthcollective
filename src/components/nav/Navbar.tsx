@@ -36,9 +36,13 @@ export default function Navbar() {
           <div className="flex items-center justify-between py-4">
             <Link
               href="/"
-              className="text-lg font-semibold tracking-tight text-olive no-underline"
+              className="flex items-center text-lg font-semibold tracking-tight text-olive no-underline"
             >
-              TSRC Health Collective
+              <img
+                src="/brand/logo-full.svg"
+                alt="TSRC logo"
+                className="h-8 w-auto lg:h-10"
+              />
             </Link>
 
             {/* Desktop nav */}

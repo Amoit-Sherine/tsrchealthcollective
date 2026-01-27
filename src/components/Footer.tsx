@@ -42,22 +42,22 @@ const legalItems: LegalItem[] = [
     id: "ethics",
     label: "Ethics",
     description:
-      "TSRC Health Collective operates within a framework of ethical service delivery consistent with expectations for regulated care services. Ethical practice is reflected through professional conduct, respect for individuals, and adherence to applicable regulatory and institutional standards.",
+      "TSRC Health Collective maintains an ethical practice framework for youth residential care consistent with regulated requirements. Ethical practice is reflected through professional conduct, respect for individuals, and alignment with applicable regulatory and institutional standards.",
     bullets: [
-      "Services are delivered with respect, dignity, and professional responsibility.",
+      "Care practices emphasize respect, dignity, and professional responsibility.",
       "Ethical obligations are integrated into governance and operational standards.",
-      "Practice expectations align with regulated care environments and public accountability.",
-      "Ethical considerations inform decision-making and service delivery.",
+      "Practice expectations are designed to align with regulated care environments and public accountability.",
+      "Ethical considerations inform decision-making and program design.",
     ],
   },
   {
     id: "accountability",
     label: "Accountability",
     description:
-      "TSRC Health Collective maintains governance and oversight structures to support accountability within regulated service environments. Accountability is supported through defined roles, oversight mechanisms, and alignment with applicable licensing and regulatory requirements.",
+      "TSRC Health Collective maintains governance and oversight structures to support accountability within regulated youth residential care environments. Accountability includes defined roles, oversight mechanisms, and alignment with applicable regulatory requirements.",
     bullets: [
       "Governance structures support policy oversight and compliance.",
-      "Accountability mechanisms align with applicable licensing and regulatory requirements.",
+      "Accountability mechanisms align with applicable regulatory requirements.",
       "Quality assurance processes support service integrity and review.",
       "Oversight responsibilities are defined at an organizational level.",
     ],
@@ -66,7 +66,7 @@ const legalItems: LegalItem[] = [
     id: "accessibility",
     label: "Accessibility",
     description:
-      "TSRC Health Collective is committed to providing accessible digital information and services. Reasonable efforts are made to align this website with recognized accessibility standards, including the Web Content Accessibility Guidelines (WCAG) 2.1 Level AA, where feasible.",
+      "TSRC Health Collective is committed to providing accessible digital information. Reasonable efforts are made to align this website with recognized accessibility standards, including the Web Content Accessibility Guidelines (WCAG) 2.1 Level AA, where feasible.",
     bullets: [
       "Accessibility is considered in website design and content presentation, with reference to WCAG 2.1 Level AA where feasible.",
       "Ongoing improvements are made to enhance usability and access.",
@@ -89,8 +89,8 @@ export default function Footer() {
               TSRC Health Collective
             </p>
             <p className="text-sm text-muted">
-              Regulated healthcare organization with service platforms and
-              practice frameworks.
+              Focused on youth residential care governance in British
+              Columbia.
             </p>
           </div>
 

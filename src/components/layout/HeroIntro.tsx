@@ -7,11 +7,17 @@ export default function HeroIntro() {
     <section id="top" className="border-b border-muted/15 bg-white">
       <Container>
         <div className="flex min-h-[65vh] flex-col items-center justify-center gap-6 py-16 text-center sm:py-20">
-          <SectionDots className="justify-center hero-fade" size="lg" />
-          <h1 className="text-balance hero-fade">TSRC Health Collective</h1>
+          <p className="text-xs uppercase tracking-[0.3em] text-muted hero-fade">
+            Transitional Support &amp; Residential Care
+          </p>
+          <SectionDots className="justify-center hero-fade-delayed" />
+          <img
+            src="/brand/logo-full.svg"
+            alt="TSRC logo"
+            className="h-[100px] w-auto lg:h-[180px]"
+          />
           <p className="max-w-2xl text-lg text-muted/90 sm:text-xl hero-fade-delayed">
-            Parent organization for regulated service platforms in British
-            Columbia and Canada.
+            Building regulated care platforms with care, structure, and accountability.
           </p>
           <div className="hero-fade-late">
             <Button href="/#about" variant="primary" size="lg">

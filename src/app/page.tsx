@@ -14,15 +14,18 @@ export default function HomePage() {
             <p className="text-xs uppercase tracking-[0.3em] text-white/70">
               Corporate Overview
             </p>
-            <h2>Parent organization for regulated care platforms</h2>
+            <h2>Platform foundations for accountable care</h2>
             <p className="text-white/85">
-            TSRC Health Collective functions as the governing organization responsible for establishing governance 
-            frameworks, clinical and operational standards, and oversight for staffed residential care services
-            delivered under applicable British Columbia legislation.
+              TSRC Health Collective develops the structures, standards, and
+              operating models that support regulated care services. Our work
+              focuses on building the foundations required for safe, accountable,
+              and well-governed care environments.
             </p>
-            <p className="text-white/80">
-              The corporate model supports future service lines while
-              maintaining regulatory readiness.
+            <p className="text-white/85">
+              Current platform development includes youth residential and
+              community-based services in British Columbia, with planning and
+              implementation aligned to provincial legislation and licensing
+              requirements.
             </p>
             <div className="flex flex-wrap gap-3">
               <Button href="/services" variant="secondary" className="border-white/20">
@@ -39,17 +42,19 @@ export default function HomePage() {
           </div>
           <div className="space-y-5">
             <div className="border-t border-white/15 pt-4">
-              <h3>Regulatory context</h3>
+              <h3>Implementation focus</h3>
               <p className="mt-3 text-white/80">
-                Programs follow provincial licensing, oversight, and privacy
-                requirements for regulated delivery.
+                Early build work emphasizes practical operations and responsible
+                information handling as the platform takes shape.
               </p>
             </div>
-            <ul className="space-y-3 text-sm text-white/80">
-              <li>Licensing and oversight alignment.</li>
-              <li>Quality assurance and compliance controls.</li>
-              <li>Information governance and privacy stewardship.</li>
-            </ul>
+            <div className="rounded-2xl border border-white/15 bg-white/10 p-4 text-white/80 backdrop-blur sm:p-5 lg:p-6">
+              <ul className="space-y-3 text-sm">
+                <li>Clear roles and decision ownership.</li>
+                <li>Operational playbooks and consistent practice.</li>
+                <li>Respectful information handling and privacy care.</li>
+              </ul>
+            </div>
           </div>
         </div>
       </Section>
@@ -63,8 +68,8 @@ export default function HomePage() {
             </p>
             <h2>Accountability</h2>
             <p className="max-w-3xl">
-            We uphold clear standards for privacy, information governance, and ethical service delivery
-            in accordance with regulatory expectations.
+              We center privacy, responsible information use, and ethical
+              practice in how we design and communicate our work.
             </p>
           </div>
           <div className="grid gap-8 md:grid-cols-2">
@@ -74,32 +79,35 @@ export default function HomePage() {
             >
               <h3>Privacy and confidentiality</h3>
               <p className="mt-3">
-                Confidentiality aligned with regulatory requirements.
+                Confidentiality is treated with care in every step of planning
+                and communication.
               </p>
             </div>
             <div className="border-t border-sand/40 pt-4">
-              <h3>Information governance</h3>
+              <h3>Information stewardship</h3>
               <p className="mt-3">
-                Data stewardship, access controls, and documentation integrity.
+                We are defining how information is collected, stored, and shared
+                with respect and restraint.
               </p>
             </div>
             <div
               id="ethics"
               className="scroll-mt-28 border-t border-sand/40 pt-4"
             >
-              <h3>Ethical service delivery</h3>
+              <h3>Ethical practice</h3>
               <p className="mt-3">
-                Professional integrity and responsible decisions across
-                programs.
+                We emphasize integrity and thoughtful decision-making across our
+                work.
               </p>
             </div>
             <div
               id="accountability"
               className="scroll-mt-28 border-t border-sand/40 pt-4"
             >
-              <h3>Complaints and oversight access</h3>
+              <h3>Feedback and response</h3>
               <p className="mt-3">
-                Clear routes for complaints and external oversight.
+                We are setting up clear ways to raise concerns and receive a
+                response.
               </p>
             </div>
             <div
@@ -108,7 +116,8 @@ export default function HomePage() {
             >
               <h3>Accessibility</h3>
               <p className="mt-3">
-                Accessibility meets WCAG AA standards.
+                Accessibility is considered from the start, with a focus on
+                clarity and ease of use.
               </p>
             </div>
           </div>

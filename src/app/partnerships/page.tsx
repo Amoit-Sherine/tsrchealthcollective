@@ -16,9 +16,9 @@ export default function PartnershipsPage() {
             <SectionDots className="justify-center hero-fade-delayed" />
             <h1 className="text-balance hero-fade-late">Partnership pathways</h1>
             <p className="max-w-2xl text-lg text-muted/90 sm:text-xl hero-fade-late">
-              Collaboration based on governance alignment, shared
-              accountability, and respectful partnership with institutions and
-              communities.
+              Partnership planning focuses on shared governance,
+              accountability, and long-term alignment in support of regulated
+              youth residential care.
             </p>
           </div>
         </Container>
@@ -32,30 +32,45 @@ export default function PartnershipsPage() {
             </p>
             <h2>Aligned partnership types</h2>
             <p className="max-w-3xl">
-              TSRC builds partnerships with regulatory alignment, clear
-              governance, and long-term collaboration.
+              TSRC is building alignment-based partnerships that support youth
+              residential care governance and accountability.
             </p>
           </div>
           <div className="grid gap-8 lg:grid-cols-3">
-            <Card variant="solid" tone="white" hover>
+            <Card
+              variant="solid"
+              tone="white"
+              hover
+              className="border-muted/20 bg-white/80 shadow-[0_8px_20px_rgba(0,0,0,0.08)] backdrop-blur-md"
+            >
               <h3>Government partnerships</h3>
               <p className="mt-3">
-                Collaboration with ministries and health authorities for
-                regulated service delivery.
+                Exploratory collaboration with ministries and health authorities
+                to support regulated youth residential care.
               </p>
             </Card>
-            <Card variant="solid" tone="sand" hover>
+            <Card
+              variant="solid"
+              tone="sand"
+              hover
+              className="border-sand/40 bg-sand/55 shadow-[0_8px_20px_rgba(0,0,0,0.08)] backdrop-blur-md"
+            >
               <h3>Indigenous partnerships</h3>
               <p className="mt-3">
                 Engagement based on cultural safety, respect, and shared
                 priorities.
               </p>
             </Card>
-            <Card variant="solid" tone="white" hover>
+            <Card
+              variant="solid"
+              tone="white"
+              hover
+              className="border-muted/20 bg-white/80 shadow-[0_8px_20px_rgba(0,0,0,0.08)] backdrop-blur-md"
+            >
               <h3>Community and institutional collaboration</h3>
               <p className="mt-3">
-                Coordination with community and institutional partners to
-                sustain aligned services.
+                Coordination with community and institutional partners that
+                supports youth residential care.
               </p>
             </Card>
           </div>
@@ -79,8 +94,8 @@ export default function PartnershipsPage() {
             </p>
             <h2>How partnerships work</h2>
             <p>
-              Partnerships use clear accountability, defined decision rights,
-              and shared commitment to regulated standards.
+              Partnership planning emphasizes clear accountability, defined
+              decision rights, and shared commitment to regulated standards.
             </p>
             <ul className="space-y-3 text-sm text-muted">
               <li>Defined governance and reporting expectations.</li>
@@ -91,8 +106,8 @@ export default function PartnershipsPage() {
           <Card variant="glass">
             <h3>Future collaboration</h3>
             <p className="mt-3">
-              We welcome structured opportunities that support regulated care
-              delivery over time.
+              We welcome structured opportunities that support regulated youth
+              residential care.
             </p>
           </Card>
         </div>

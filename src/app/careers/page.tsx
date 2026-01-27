@@ -29,18 +29,15 @@ export default function CareersPage() {
     <>
       <section className="border-b border-muted/10 bg-white">
         <Container>
-          <div className="flex min-h-[55vh] flex-col items-center justify-center gap-6 py-16 text-center sm:py-24">
-            <SectionDots className="justify-center hero-fade" />
-            <h1 className="text-balance text-5xl font-semibold leading-tight text-olive hero-fade-delayed sm:text-6xl lg:text-7xl">
+          <div className="flex min-h-[45vh] flex-col items-center justify-center gap-5 py-16 text-center sm:py-20">
+            <p className="text-xs uppercase tracking-[0.3em] text-muted hero-fade">
               Careers
-            </h1>
-            <p className="max-w-2xl text-xl text-muted/90 hero-fade-late sm:text-2xl">
-            Join regulated healthcare services where governance, compliance, 
-            and quality assurance shape daily practice.
             </p>
-            <p className="max-w-2xl text-base text-muted hero-fade-late sm:text-lg">
-            Roles contribute to institutional partnerships and regulated 
-            care delivery across British Columbia and Canada.
+            <SectionDots className="justify-center hero-fade-delayed" />
+            <h1 className="text-balance hero-fade-late">Work with us</h1>
+            <p className="max-w-2xl text-lg text-muted/90 hero-fade-late sm:text-xl">
+              Join TSRC Health Collective as we develop governance, standards,
+              and oversight for youth residential care in British Columbia.
             </p>
             <div className="hero-fade-late">
               <Button href="#opportunities" variant="primary" size="lg">
@@ -59,8 +56,8 @@ export default function CareersPage() {
             </p>
             <h2>What we focus on</h2>
             <p className="max-w-3xl">
-              TSRC teams work across regulated service platforms with shared
-              accountability, structured documentation, and ethical practice.
+              Teams support governance, structured documentation, and ethical
+              practice for youth residential care.
             </p>
           </div>
           <BadgeRail items={badges} />
