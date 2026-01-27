@@ -75,6 +75,9 @@ export async function POST(request: Request) {
   }
 
   const apiKey = process.env.RESEND_API_KEY;
+  console.log("[contact] RESEND_API_KEY defined:", Boolean(apiKey));
+  console.log("[contact] VERCEL_ENV:", process.env.VERCEL_ENV);
+  console.log("[contact] NODE_ENV:", process.env.NODE_ENV);
   if (!apiKey) {
     return NextResponse.json(
       { ok: false, error: "Missing RESEND_API_KEY." },
