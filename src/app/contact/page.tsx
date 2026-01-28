@@ -47,8 +47,7 @@ export default function ContactPage() {
             <div className="rounded-2xl border border-white/25 bg-white/12 p-6 shadow-[0_10px_28px_rgba(0,0,0,0.25)] backdrop-blur-lg sm:p-7">
               <h3 className="!text-white">Regional scope</h3>
               <p className="mt-3 text-sm !text-white/80">
-                Regional focus across British Columbia. No site addresses are
-                published.
+                Focused on service delivery within British Columbia.
               </p>
             </div>
           </div>

@@ -14,7 +14,7 @@ export default function HomePage() {
             <p className="text-xs font-semibold uppercase tracking-[0.3em] text-white/85 sm:text-sm">
               About Us
             </p>
-            <h2>Delivering regulated youth residential and community-based care</h2>
+            <h2>Residential and community-based care</h2>
             <p className="text-white/85">
               TSRC Health Collective delivers youth residential and community-based
               care in British Columbia, with a focus on governance, operational
@@ -23,9 +23,18 @@ export default function HomePage() {
               of care, and responsible service delivery within established
               regulatory and practice frameworks used across the sector.
             </p>
-            <p className="text-white/85">
-              Alignment with provincial licensing and oversight.
-            </p>
+          </div>
+          <div className="space-y-6 lg:pt-8">
+            <div className="border-t border-white/15 pt-4">
+              <h3>Implementation focus</h3>
+            </div>
+            <div className="rounded-2xl border border-white/20 bg-white/12 p-4 text-white/90 backdrop-blur sm:p-5 lg:p-6">
+              <ul className="space-y-3 text-sm">
+                <li>Defined roles and oversight.</li>
+                <li>Operational readiness.</li>
+                <li>Information stewardship.</li>
+              </ul>
+            </div>
             <div className="flex flex-wrap gap-3">
               <Button href="/services" variant="secondary" className="border-white/20">
                 Service Overview
@@ -37,18 +46,6 @@ export default function HomePage() {
               >
                 Partnerships
               </Button>
-            </div>
-          </div>
-          <div className="space-y-5">
-            <div className="border-t border-white/15 pt-4">
-              <h3>Implementation focus</h3>
-            </div>
-            <div className="rounded-2xl border border-white/20 bg-white/12 p-4 text-white/90 backdrop-blur sm:p-5 lg:p-6">
-              <ul className="space-y-3 text-sm">
-                <li>Defined roles and oversight.</li>
-                <li>Operational readiness.</li>
-                <li>Information stewardship.</li>
-              </ul>
             </div>
           </div>
         </div>

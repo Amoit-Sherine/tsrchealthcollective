@@ -7,7 +7,8 @@ export default function HeroIntro() {
     <section id="top" className="border-b border-muted/15 bg-white">
       <Container>
         <div className="flex min-h-[65vh] flex-col items-center justify-center gap-6 py-16 text-center sm:py-20">
-          <p className="text-xs uppercase tracking-[0.3em] text-muted hero-fade">
+          <h1 className="sr-only">Transitional Support &amp; Residential Care</h1>
+          <p className="text-xs uppercase tracking-[0.3em] text-olive/75 hero-fade">
             Transitional Support &amp; Residential Care
           </p>
           <SectionDots className="justify-center hero-fade-delayed" />
@@ -16,7 +17,7 @@ export default function HeroIntro() {
             alt="TSRC logo"
             className="h-[100px] w-auto lg:h-[180px]"
           />
-          <p className="max-w-2xl text-lg text-muted/90 sm:text-xl hero-fade-delayed">
+          <p className="max-w-2xl text-lg text-olive/75 sm:text-xl hero-fade-delayed">
             Delivering regulated care services grounded in structure and accountability.
           </p>
           <div className="hero-fade-late">

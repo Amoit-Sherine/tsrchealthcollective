@@ -13,7 +13,12 @@ const navLinks = [
   { label: "Careers", href: "/careers" },
 ];
 
-type LegalId = "privacy" | "ethics" | "accountability" | "accessibility";
+type LegalId =
+  | "privacy"
+  | "ethics"
+  | "accountability"
+  | "accessibility"
+  | "licensing";
 
 type LegalItem = {
   id: LegalId;
@@ -74,6 +79,13 @@ const legalItems: LegalItem[] = [
       "Feedback related to accessibility is welcomed.",
     ],
   },
+  {
+    id: "licensing",
+    label: "Licensing",
+    description:
+      "TSRC Health Collective operates within regulatory frameworks governing staffed residential and community-based care in British Columbia.\n\nService delivery is subject to applicable provincial legislation, licensing requirements, and oversight by relevant authorities.\n\nWhere services are referenced on this website, they reflect areas of intended or permitted operation in accordance with regulatory standards. No service is provided outside of approved scope or without required authorization.",
+    bullets: [],
+  },
 ];
 
 export default function Footer() {
@@ -88,17 +100,17 @@ export default function Footer() {
             <p className="text-lg font-semibold text-olive">
               TSRC Health Collective
             </p>
-            <p className="text-sm text-muted">
+            <p className="text-sm text-olive/80">
               Focused on youth residential care governance in British
               Columbia.
             </p>
           </div>
 
           <div className="space-y-3">
-            <p className="text-xs uppercase tracking-[0.3em] text-muted">
+            <p className="text-xs uppercase tracking-[0.3em] text-olive/80">
               Navigate
             </p>
-            <ul className="space-y-2 text-sm text-muted">
+            <ul className="space-y-2 text-sm text-olive/80">
               {navLinks.map((link) => (
                 <li key={link.href}>
                   <Link className="no-underline hover:text-olive" href={link.href}>
@@ -110,8 +122,8 @@ export default function Footer() {
           </div>
 
           <div className="space-y-3">
-            <p className="text-xs uppercase tracking-[0.3em] text-muted">Legal</p>
-            <ul className="space-y-2 text-sm text-muted">
+            <p className="text-xs uppercase tracking-[0.3em] text-olive/80">Legal</p>
+            <ul className="space-y-2 text-sm text-olive/80">
               {legalItems.map((item) => (
                 <li key={item.id}>
                   <button
@@ -130,9 +142,13 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="flex flex-col gap-2 border-t border-muted/15 py-6 text-xs text-muted sm:flex-row sm:items-center sm:justify-between">
-          <span>TSRC Health Collective. All rights reserved.</span>
-          <span>Corporate healthcare website.</span>
+        <div className="flex flex-col items-center gap-2 border-t border-muted/15 py-6 text-center text-xs text-olive/80 sm:flex-row sm:items-center sm:justify-between sm:text-left">
+          <span>© 2026 TSRC Health Collective. All rights reserved.</span>
+          <img
+            src="/brand/logo-mark.svg"
+            alt="TSRC Health Collective mark"
+            className="h-8 w-auto opacity-100 sm:h-10 md:h-12"
+          />
         </div>
       </Container>
       {activeItem ? (
@@ -181,11 +197,13 @@ export default function Footer() {
                 >
                   {activeItem.description}
                 </p>
-                <ul className="mt-4 list-disc space-y-2 pl-5 text-sm leading-relaxed text-muted">
-                  {activeItem.bullets.map((bullet) => (
-                    <li key={bullet}>{bullet}</li>
-                  ))}
-                </ul>
+                {activeItem.bullets.length > 0 ? (
+                  <ul className="mt-4 list-disc space-y-2 pl-5 text-sm leading-relaxed text-muted">
+                    {activeItem.bullets.map((bullet) => (
+                      <li key={bullet}>{bullet}</li>
+                    ))}
+                  </ul>
+                ) : null}
                 <p className="mt-5 text-xs leading-relaxed text-muted">
                   {legalDisclaimer}
                 </p>

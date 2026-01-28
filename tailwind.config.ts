@@ -19,6 +19,9 @@ const config: Config = {
         soft: "0 12px 30px rgba(65, 72, 51, 0.08)",
         glass: "0 18px 45px rgba(65, 72, 51, 0.12)",
       },
+      fontSize: {
+        xs: ["0.8333rem", { lineHeight: "1rem" }],
+      },
     },
   },
   plugins: [],
