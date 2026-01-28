@@ -19,6 +19,10 @@ export const metadata: Metadata = {
   },
   description:
     "Governance and standards for regulated youth residential care in British Columbia.",
+  icons: {
+    icon: "/brand/logo-mark.svg",
+    apple: "/brand/logo-mark.svg",
+  },
 };
 
 export default function RootLayout({
