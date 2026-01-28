@@ -6,7 +6,7 @@ import Container from "@/components/layout/Container";
 
 const navLinks = [
   { label: "About", href: "/#about" },
-  { label: "Service Platform", href: "/services" },
+  { label: "Service Overview", href: "/services" },
   { label: "Regulation & Governance", href: "/governance" },
   { label: "Partnerships", href: "/partnerships" },
   { label: "Contact", href: "/contact" },

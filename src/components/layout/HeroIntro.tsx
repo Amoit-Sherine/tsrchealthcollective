@@ -17,11 +17,11 @@ export default function HeroIntro() {
             className="h-[100px] w-auto lg:h-[180px]"
           />
           <p className="max-w-2xl text-lg text-muted/90 sm:text-xl hero-fade-delayed">
-            Building regulated care platforms with care, structure, and accountability.
+            Delivering regulated care services grounded in structure and accountability.
           </p>
           <div className="hero-fade-late">
             <Button href="/#about" variant="primary" size="lg">
-              View corporate overview
+              View About Us
             </Button>
           </div>
         </div>

@@ -9,16 +9,15 @@ export default function ServicesPage() {
         <Container>
           <div className="flex min-h-[45vh] flex-col items-center justify-center gap-5 py-16 text-center sm:py-20">
             <p className="text-xs uppercase tracking-[0.3em] text-muted hero-fade">
-              Service Platform
+              Service Overview
             </p>
             <SectionDots className="justify-center hero-fade-delayed" />
             <h1 className="text-balance hero-fade-late">
-              Residential &amp; Community Care Platform
+              Residential &amp; Community Care Services
             </h1>
             <p className="max-w-2xl text-lg text-muted/90 sm:text-xl hero-fade-late">
-              A regulated care platform in development, with current focus on
-              youth residential and community-based services in British
-              Columbia, subject to provincial licensing and oversight.
+              A regulated care service focus aligned with provincial licensing and
+              oversight requirements in British Columbia.
             </p>
           </div>
         </Container>
@@ -28,24 +27,25 @@ export default function ServicesPage() {
         <div className="space-y-10">
           <div className="space-y-4">
             <p className="text-xs uppercase tracking-[0.3em] text-muted">
-              Service Platform
+              Service Overview
             </p>
             <h2>Service focus</h2>
             <p className="max-w-3xl">
-              The current focus is youth residential and community-based care
-              in British Columbia.
+              TSRC Health Collective's current service focus is youth residential
+              and community-based care in British Columbia. Service planning
+              prioritizes stability, continuity of care, and collaboration with
+              existing community systems.
             </p>
           </div>
 
           <div className="space-y-10">
             <div className="border-t border-sage/30 pt-8">
               <div className="space-y-6 lg:grid lg:grid-cols-[1.15fr_0.85fr] lg:items-start lg:gap-10 lg:space-y-0">
-                <div className="space-y-3">
+                <div className="space-y-4">
                   <h3>Youth residential &amp; community services</h3>
                   <p>
-                    Program design includes youth residential care,
-                    community-based care, and supportive living models aligned
-                    with provincial standards.
+                    Scope includes staffed youth residential care,
+                    community-based programs, and supportive living models.
                   </p>
                   <ul className="space-y-2 text-sm text-muted">
                     <li>Youth residential care.</li>
@@ -65,6 +65,37 @@ export default function ServicesPage() {
                       <li>Provincial standards and oversight alignment.</li>
                       <li>Rights-based planning and trauma-informed supports.</li>
                       <li>Community integration and continuity of care.</li>
+                    </ul>
+                  </div>
+                </details>
+              </div>
+            </div>
+            <div className="border-t border-sage/30 pt-8">
+              <div className="space-y-6 lg:grid lg:grid-cols-[1.15fr_0.85fr] lg:items-start lg:gap-10 lg:space-y-0">
+                <div className="space-y-4">
+                  <h3>Community engagement and workforce readiness</h3>
+                  <p>
+                    Readiness and collaboration are reflected in the priorities
+                    below.
+                  </p>
+                  <ul className="space-y-2 text-sm text-muted">
+                    <li>Trauma-informed practice.</li>
+                    <li>Cultural safety.</li>
+                    <li>Professional standards.</li>
+                  </ul>
+                </div>
+                <details className="rounded-2xl border border-sand/50 bg-white/80 px-5 py-4 shadow-sm">
+                  <summary className="details-summary">
+                    Readiness foundations
+                    <span aria-hidden="true" className="text-muted">
+                      +
+                    </span>
+                  </summary>
+                  <div className="details-panel">
+                    <ul className="space-y-2">
+                      <li>Community integration.</li>
+                      <li>Shared planning expectations.</li>
+                      <li>Clear staff training expectations.</li>
                     </ul>
                   </div>
                 </details>

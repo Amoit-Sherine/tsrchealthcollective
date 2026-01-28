@@ -9,27 +9,26 @@ export default function HomePage() {
       <HeroIntro />
 
       <Section id="about" variant="dark" tone="olive">
-        <div className="grid gap-12 lg:grid-cols-[1.1fr_0.9fr] lg:items-start">
+        <div className="grid gap-10 lg:grid-cols-[1fr_1fr] lg:items-start">
           <div className="space-y-6">
-            <p className="text-xs uppercase tracking-[0.3em] text-white/70">
-              Corporate Overview
+            <p className="text-xs font-semibold uppercase tracking-[0.3em] text-white/85 sm:text-sm">
+              About Us
             </p>
-            <h2>Platform foundations for accountable care</h2>
+            <h2>Delivering regulated youth residential and community-based care</h2>
             <p className="text-white/85">
-              TSRC Health Collective develops the structures, standards, and
-              operating models that support regulated care services. Our work
-              focuses on building the foundations required for safe, accountable,
-              and well-governed care environments.
+              TSRC Health Collective delivers youth residential and community-based
+              care in British Columbia, with a focus on governance, operational
+              readiness, and alignment with provincial licensing and oversight
+              requirements. Our work emphasizes safe care environments, continuity
+              of care, and responsible service delivery within established
+              regulatory and practice frameworks used across the sector.
             </p>
             <p className="text-white/85">
-              Current platform development includes youth residential and
-              community-based services in British Columbia, with planning and
-              implementation aligned to provincial legislation and licensing
-              requirements.
+              Alignment with provincial licensing and oversight.
             </p>
             <div className="flex flex-wrap gap-3">
               <Button href="/services" variant="secondary" className="border-white/20">
-                Service platform
+                Service Overview
               </Button>
               <Button
                 href="/partnerships"
@@ -43,16 +42,12 @@ export default function HomePage() {
           <div className="space-y-5">
             <div className="border-t border-white/15 pt-4">
               <h3>Implementation focus</h3>
-              <p className="mt-3 text-white/80">
-                Early build work emphasizes practical operations and responsible
-                information handling as the platform takes shape.
-              </p>
             </div>
-            <div className="rounded-2xl border border-white/15 bg-white/10 p-4 text-white/80 backdrop-blur sm:p-5 lg:p-6">
+            <div className="rounded-2xl border border-white/20 bg-white/12 p-4 text-white/90 backdrop-blur sm:p-5 lg:p-6">
               <ul className="space-y-3 text-sm">
-                <li>Clear roles and decision ownership.</li>
-                <li>Operational playbooks and consistent practice.</li>
-                <li>Respectful information handling and privacy care.</li>
+                <li>Defined roles and oversight.</li>
+                <li>Operational readiness.</li>
+                <li>Information stewardship.</li>
               </ul>
             </div>
           </div>
